@@ -10,7 +10,7 @@ st.set_page_config(
     layout="centered",
 )
 
-API_URL = os.getenv("API_URL", "speech-emotion-recognition-production.up.railway.app")
+API_URL = os.getenv("API_URL", "http://speech-emotion-recognition-production.up.railway.app")
 
 st.title("🎙️ Speech Emotion Recognition")
 st.caption(
